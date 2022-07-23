@@ -20,10 +20,10 @@ jobs:
         with:
           mode: start
           github-token: ${{ secrets.GH_SECRET }}
-          ec2-image-id: ami-123
+          ec2-image-id: ami-0130c3a072f3832ff
           ec2-instance-type: t3.nano
-          subnet-id: subnet-123
-          security-group-id: sg-123
+          subnet-id: subnet-00c39fe192a9b1e51
+          security-group-id: sg-0aa7baf21d79f9a5f
 
   do-the-job:
     name: Do the job on the runner
