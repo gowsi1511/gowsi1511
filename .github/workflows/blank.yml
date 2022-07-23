@@ -20,8 +20,8 @@ jobs:
         with:
           mode: start
           github-token: ${{ secrets.GH_SECRET }}
-          ec2-image-id: ami-0ff8a91507f77f867
-          ec2-instance-type: m1.small
+          ec2-image-id: ami-052efd3df9dad4825
+          ec2-instance-type: t2.micro
           subnet-id: subnet-00c39fe192a9b1e51
           security-group-id: sg-0aa7baf21d79f9a5f
 
