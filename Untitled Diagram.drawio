@@ -1,1 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T12:09:38.376Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="FGb8De4UdF-myONn8ExU" version="20.5.3" type="github"><diagram id="UB9pDGIvdfwUwHkUdy5F" name="Page-1">7ZhNc5swEIZ/DUd3zLd9tKkT9yMX4yZnDWxAE0BECGP313cBAWZcOu00hKHTC6B3V8uyjyQEiu7E53tO0vCB+RAp2tI/K/pHRdNUU1/hqVQutbLSjVoIOPWlUye49DtIcSnVnPqQ9RwFY5GgaV/0WJKAJ3oa4ZwVfbdnFvXvmpIAbgTXI9Gt+kR9Ecqn0OxO3wMNwubOqrWuLTFpnOWTZCHxWXEl6TtFdzhjor6Kzw5EZfGautT97gasbWIcEvE7HYxP9DEjd0H4WdvuyckLY2IuZLInEuXygRXNijDe9plhWMxaXGQprNecNYZFVoHaoINqpAh729nxKijPx437xW2iYVp1wNomK9LG1rKCxhFJsLUtQirATYlXmgocVaiFIo6wpbZdT8AFnAcrobb1xYEJLAbBL+giO+jN4JJjUl3JdtER1pZSC6/orhuRyFEVtLG7wuOFrP0fcFAHOWQpSf6Kg8OBCEAPDq85ZOIKSR17AAlneeJDmfTyjagMj8BhVH1S5i0oVfsJKHM0Tto7gHIOc2akGpND0seDtIsJLRM41JMJ+JxRte3pUBnjofqW+vV82jwe8egKIvKs2j/g4d45uHNG177DpkNnvgO6vTNrSsb0LyxrPEo4o3i5R9wdv+LxSLKXObMyp18M7fFYPREqqu8fXi6IVS5H6r2AaBZEj8VpBOWkmy9Ca/pFcTUewgd2KpdEUWFrX2S7BeFeSE+zBmcvJwc3/CX8hhv7f2CO2eupUTU3+7/x+MX20F5/MEfjhM3uv1Vlu/r7p+9+AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-21T14:04:25.216Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="EcUcNORBBGa5mTfs2J9L" version="20.5.3" type="github">
+  <diagram id="UB9pDGIvdfwUwHkUdy5F" name="Page-1">
+    <mxGraphModel dx="1538" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4IiVsaFghJ2BHavchma5-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;TASKS&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="110" width="200" height="720" as="geometry" />
+        </mxCell>
+        <mxCell id="4IiVsaFghJ2BHavchma5-1" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Create request&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="4IiVsaFghJ2BHavchma5-9" vertex="1">
+          <mxGeometry x="30" y="50" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4IiVsaFghJ2BHavchma5-12" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Create CR&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="4IiVsaFghJ2BHavchma5-9" vertex="1">
+          <mxGeometry x="30" y="140" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4IiVsaFghJ2BHavchma5-13" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Email Requester&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="4IiVsaFghJ2BHavchma5-9" vertex="1">
+          <mxGeometry x="30" y="230" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4IiVsaFghJ2BHavchma5-14" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Update AVT Status to GCRS&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="4IiVsaFghJ2BHavchma5-9" vertex="1">
+          <mxGeometry x="30" y="310" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4IiVsaFghJ2BHavchma5-15" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Update ES&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="4IiVsaFghJ2BHavchma5-9" vertex="1">
+          <mxGeometry x="30" y="450" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4IiVsaFghJ2BHavchma5-16" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Start ETL Task&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="4IiVsaFghJ2BHavchma5-9" vertex="1">
+          <mxGeometry x="30" y="530" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4IiVsaFghJ2BHavchma5-19" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Create Complete and close CR email&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="4IiVsaFghJ2BHavchma5-9" vertex="1">
+          <mxGeometry x="30" y="620" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4IiVsaFghJ2BHavchma5-20" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Update HCS&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="4IiVsaFghJ2BHavchma5-9" vertex="1">
+          <mxGeometry x="30" y="379.5" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-1" value="&lt;span style=&quot;color: rgb(36, 36, 36); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Status&lt;/font&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="50" y="180" width="230" height="610" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-3" value="&lt;span style=&quot;color: rgb(36, 36, 36); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;records_management_verified&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="VmR9-9x2REeRYtV6QOxh-1">
+          <mxGeometry x="10" y="40" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-4" value="&lt;span style=&quot;color: rgb(36, 36, 36); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;records_management_updated&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="VmR9-9x2REeRYtV6QOxh-1">
+          <mxGeometry x="10" y="100" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-5" value="&lt;span style=&quot;color: rgb(36, 36, 36); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Ignored&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="VmR9-9x2REeRYtV6QOxh-1">
+          <mxGeometry x="10" y="500" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-6" value="&lt;span style=&quot;color: rgb(36, 36, 36); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Confirmed&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="VmR9-9x2REeRYtV6QOxh-1">
+          <mxGeometry x="10" y="270" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-7" value="&lt;span style=&quot;color: rgb(36, 36, 36); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Updated&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="VmR9-9x2REeRYtV6QOxh-1">
+          <mxGeometry x="10" y="320" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-8" value="&lt;span style=&quot;color: rgb(36, 36, 36); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Verified&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="VmR9-9x2REeRYtV6QOxh-1">
+          <mxGeometry x="10" y="380" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-9" value="&lt;span style=&quot;color: rgb(36, 36, 36); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Retired&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="VmR9-9x2REeRYtV6QOxh-1">
+          <mxGeometry x="10" y="150" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-10" value="&lt;span style=&quot;color: rgb(36, 36, 36); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Email&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="VmR9-9x2REeRYtV6QOxh-1">
+          <mxGeometry x="10" y="550" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-11" value="&lt;span style=&quot;color: rgb(36, 36, 36); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, system-ui, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Web&amp;quot;, sans-serif; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Handled_on&lt;/font&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="60" y="820" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-15" value="Admin portal or user" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="285" y="225" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-16" value="Admin portal or user and Trigger Point?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="285" y="285" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-17" value="Taken care by perl" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="290" y="710" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-18" value="On Batch edit if user confirms" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="270" y="460" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-19" value="Only on review" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="510" y="440" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-20" value="Only on edit" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="525" y="490" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-21" value="Trigger on all events" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="475" y="565" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-23" value="Just data update not checked review checkbox" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="280" y="510" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-24" value="Clicked review check box" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="270" y="570" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VmR9-9x2REeRYtV6QOxh-25" value="Column for timestamp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="295" y="830" width="160" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
